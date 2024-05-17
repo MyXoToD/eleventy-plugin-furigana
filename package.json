@@ -1,0 +1,31 @@
+{
+  "name": "@myxotod/eleventy-plugin-furigana",
+  "version": "1.0.0",
+  "description": "An eleventy plugin to display furigana on top of japanese kanji",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyXoToD/eleventy-plugin-furigana.git"
+  },
+  "keywords": [
+    "eleventy-plugin",
+    "11ty",
+    "eleventy",
+    "furigana",
+    "japanese",
+    "hiragana",
+    "kanji"
+  ],
+  "author": "Maximilian Boll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyXoToD/eleventy-plugin-furigana/issues"
+  },
+  "homepage": "https://github.com/MyXoToD/eleventy-plugin-furigana#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
