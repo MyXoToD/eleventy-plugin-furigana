@@ -2,6 +2,12 @@
 
 [Eleventy](https://11ty.dev) plugin that adds a filter to parse content for kanji followed by `[]`-brackets containing hiragana and converts it to furigana.
 
+`{{ '私[わたし]の名前[なまえ]はマックスです。' | furigana | safe }}`
+
+will produce this:
+
+![image](https://github.com/MyXoToD/eleventy-plugin-furigana/assets/4465331/e075e09c-9f33-4db9-b187-03c1dac3e26a)
+
 ![NPM Version](https://img.shields.io/npm/v/@myxotod/eleventy-plugin-furigana.svg) ![NPM Downloads](https://img.shields.io/npm/d18m/%40myxotod%2Feleventy-plugin-furigana) ![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/min/%40myxotod/eleventy-plugin-furigana/1.0.0)
 
 ## Usage
